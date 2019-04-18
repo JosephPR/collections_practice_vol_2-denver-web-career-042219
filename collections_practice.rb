@@ -1,5 +1,5 @@
 def begins_with_r(arr)
-  arr.all?{ |element| if element.start_with?("r")
+  arr.all?{ |element| element.start_with?("r")
     return true
   else
 return false    
