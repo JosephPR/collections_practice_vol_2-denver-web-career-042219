@@ -3,6 +3,6 @@ def begins_with_r(arr)
     return true
   else
 return false    
-  } 
+end
 
 end
