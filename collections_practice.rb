@@ -9,5 +9,6 @@ end
 
 def contain_a (arr)
   arr.include?("a")
+  arr
 
 end
