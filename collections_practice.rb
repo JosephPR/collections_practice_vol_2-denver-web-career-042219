@@ -8,7 +8,7 @@ def begins_with_r(arr)
 end
 
 def contain_a (arr)
- arr.map{ |element|element.include?("a")}
+ arr.collect{ |element|element.include?("a")}
 
 
 end
