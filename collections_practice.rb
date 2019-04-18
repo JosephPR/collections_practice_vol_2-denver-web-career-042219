@@ -8,6 +8,7 @@ def begins_with_r(arr)
 end
 
 def contain_a (arr)
-return arr.include?("a")
+ arr.map{include?("a")}
+
 
 end
