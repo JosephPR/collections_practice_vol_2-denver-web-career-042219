@@ -9,7 +9,7 @@ end
 
 def contain_a (arr)
   arr2 = []
- arr.eac{ |element|element.include?("a")
+ arr.map{ |element|element.include?("a")
  
    
  }
