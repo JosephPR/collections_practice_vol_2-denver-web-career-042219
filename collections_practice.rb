@@ -17,7 +17,7 @@ end
 def first_wa(arr)
 arr2 = []
   arr.map {
-    |element| if element.starts_with?("wa")
+    |element| if element.start_with?("wa")
   arr2 << element
 end
   }
