@@ -11,7 +11,7 @@ def contain_a (arr)
   arr2 = []
  arr.map{ |element|if element.include?("a")
  arr2.push(element)
- break
+
  end
  
  }
