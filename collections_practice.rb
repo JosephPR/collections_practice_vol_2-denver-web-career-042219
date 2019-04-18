@@ -15,5 +15,6 @@ def contain_a (arr)
  end
  
  }
+ arr2
 
 end
