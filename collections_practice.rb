@@ -9,10 +9,10 @@ end
 
 def contain_a (arr)
   arr2 = []
- arr.map{ |element|element.include?("a")
+ arr.map{ |element|if element.include?("a")
+ arr2.push(element)
  
    
  }
-
-
+ arr2
 end
