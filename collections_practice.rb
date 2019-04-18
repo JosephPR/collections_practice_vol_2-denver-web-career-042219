@@ -25,7 +25,7 @@ end
     string.is_a?(String) == false
   end
 end
-  # binding.pry  
+
 def count_elements(array)
 
      array.uniq.each {|i| count = 0
