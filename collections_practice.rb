@@ -13,3 +13,13 @@ def contain_a (arr)
  }
  arr2
 end
+
+def first_wa(arr)
+arr2 = []
+  arr.map {
+    |element| if element.start_with?("wa")
+  arr2 << element
+end
+    
+  }
+  arr2
