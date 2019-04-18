@@ -4,5 +4,6 @@ def begins_with_r(arr)
   else
 return false    
 end
+}
 
 end
