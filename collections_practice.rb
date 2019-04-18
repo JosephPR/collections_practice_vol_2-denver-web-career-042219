@@ -12,7 +12,7 @@ def contain_a (arr)
  arr.map{ |element|if element.include?("a")
  arr2.push(element)
  end
- arr2  
+ 
  }
 
 end
