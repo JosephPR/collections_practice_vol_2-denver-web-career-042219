@@ -1,5 +1,5 @@
 def begins_with_r(arr)
-  arr.all?{ 
+  arr.each{ 
     
     |element| element.start_with?("r")
   
